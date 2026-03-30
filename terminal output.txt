@@ -1,0 +1,47 @@
+C:\Users\Bala Tejaswini Putta\Desktop\SPRING 2026\CV\wk8>python stereo_classroom_map.py
+
+================ LEFT IMAGE SELECTION ================
+Instructions:
+1. Click one object center at a time on the LEFT image.
+2. After each click, type:
+      t  -> table
+      c  -> chair
+3. Press 'q' when finished selecting all LEFT points.
+
+Enter object type for this point (t = table, c = chair): c
+Added LEFT point: C1 (chair) at (459, 891)
+Enter object type for this point (t = table, c = chair): c
+Added LEFT point: C2 (chair) at (861, 993)
+Enter object type for this point (t = table, c = chair): t
+Added LEFT point: T1 (table) at (631, 919)
+Enter object type for this point (t = table, c = chair): t
+Added LEFT point: T2 (table) at (1149, 801)
+
+Selected LEFT objects:
+1. C1 (chair) -> (459, 891)
+2. C2 (chair) -> (861, 993)
+3. T1 (table) -> (631, 919)
+4. T2 (table) -> (1149, 801)
+
+================ RIGHT IMAGE SELECTION ================
+Instructions:
+1. Click the SAME objects in the RIGHT image.
+2. Click in EXACTLY the same order as the LEFT image.
+3. Press 'q' when finished.
+
+Added RIGHT point: C1 (chair) at (364, 862)
+Added RIGHT point: C2 (chair) at (749, 965)
+Added RIGHT point: T1 (table) at (524, 913)
+Added RIGHT point: T2 (table) at (1059, 780)
+
+================ COMPUTED COORDINATES ================
+C1 (chair): disparity=95.00, X=-0.538 m, Y=2.368 m
+C2 (chair): disparity=112.00, X=0.082 m, Y=2.009 m
+T1 (table): disparity=107.00, X=-0.237 m, Y=2.103 m
+T2 (table): disparity=90.00, X=0.582 m, Y=2.500 m
+
+Done.
+Saved CSV  : classroom_xy_coordinates.csv
+Saved Plot : classroom_2d_plot.png
+
+C:\Users\Bala Tejaswini Putta\Desktop\SPRING 2026\CV\wk8>
